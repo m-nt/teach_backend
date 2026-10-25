@@ -1,0 +1,5 @@
+# Run Caddy on the host for this track. API must already listen on 127.0.0.1:8080.
+https://localhost:8443 {
+    tls internal
+    reverse_proxy 127.0.0.1:8080
+}

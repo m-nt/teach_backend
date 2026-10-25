@@ -1,0 +1,20 @@
+# Practice: What a backend does; your first Go program
+
+**Time budget:** 2–4 hours. Stop and record the exact blocker after 30 unproductive minutes; bring the evidence to the clinic.
+
+## Required practice
+
+1. Write a second greeting program without copying the full example; include city and course name.
+2. Draw a booking journey on paper and list three entities. Submit the program and a photo or text drawing.
+
+## Submission and feedback
+
+Submit code or diagrams, the evidence worksheet, and a short note stating what you completed independently and where you used help. From fundamentals lesson 06 onward, include a commit ID. Never submit secrets, real student records, or private tokens.
+
+Instructor checks: the stated behavior works (2), the learner can explain it (2), and the evidence is reproducible (2). Target 4/6 with corrections allowed.
+
+## Preparation for the next class
+
+Before lesson 02: confirm go version and editor access, bring your working greeting, and practise opening its folder and terminal. No Docker installation is needed yet.
+
+**Preparation proof:** bring command output, the requested artifact, or the exact error. Tell the instructor before class if a required installation is blocked so a shared machine can be ready.

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.dump
+*.log
+coverage.out
+bin/
+examples/01-hello/hello
+examples/02-booking-cli/booking-cli
+examples/03-http-api/http-api
+examples/05-db-api/db-api
+__pycache__/
