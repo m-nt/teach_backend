@@ -6,7 +6,7 @@ Validated on **2026-10-25**. Source/configuration checks are distinguished from 
 
 | Check | Result |
 |---|---|
-| Curriculum structure | 3 tiers, 42 sequenced lessons, 210 required lesson files |
+| Curriculum structure | 3 tiers, 46 sequenced lessons, 230 required lesson files |
 | Local Markdown targets | All links resolve using `python3 scripts/check-curriculum.py` |
 | Go formatting, vet, build | All four supplied modules pass |
 | Go unit/race checks | CLI rules, HTTP validation/concurrent capacity, database-input parsing pass; greeting has no tests |

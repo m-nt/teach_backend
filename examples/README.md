@@ -5,10 +5,10 @@ Each Go directory is an independent module. Run commands inside that directory; 
 | Directory | Lessons | Run / purpose |
 |---|---|---|
 | [01-hello](01-hello/README.md) | F01–02 | `go run .`: first program |
-| [02-booking-cli](02-booking-cli/README.md) | F03–06, F12 | `go run .`, `go test ./...`: entities and rules |
-| [03-http-api](03-http-api/README.md) | F07–08 | `go run .`: JSON/HTTP with in-memory reservations |
-| [04-sql](04-sql/README.md) | F10 | Schema, synthetic fixtures, and queries |
-| [05-db-api](05-db-api/README.md) | F11–13 | PostgreSQL-backed student registration and session catalog |
+| [02-booking-cli](02-booking-cli/README.md) | F03–06, F12, F16 | `go run .`, `go test ./...`: entities and rules |
+| [03-http-api](03-http-api/README.md) | F09–12 | `go run .`: JSON/HTTP with in-memory reservations |
+| [04-sql](04-sql/README.md) | F14 | Schema, synthetic fixtures, and queries |
+| [05-db-api](05-db-api/README.md) | F15–17 | PostgreSQL-backed student registration and session catalog |
 
 The first three examples use only the standard library. The database API uses the pgx database/sql adapter. Use a supported installed Go toolchain; `go 1.22` specifies the language baseline, not the preferred current release. The examples listen on loopback by default and have no authentication. Use only synthetic records.
 

@@ -16,9 +16,9 @@ Install Git from its official site; verify `git --version`. Set a local author n
 
 ## Before lesson 07
 
-Verify `curl --version`. In Windows PowerShell use `curl.exe` when `curl` resolves to another command. Bash examples use single-quoted JSON; for shell differences put JSON in `request.json` and use `curl.exe -i -H "Content-Type: application/json" --data-binary @request.json http://localhost:8080/bookings`.
+Verify the operating system network tools used in class: `ipconfig` or `ip`, plus `curl --version`. The lesson demonstrates IP addresses and ports before the HTTP lessons; curl is reused from lesson 09 onward. In Windows PowerShell use `curl.exe` when `curl` resolves to another command. Bash examples use single-quoted JSON; for shell differences put JSON in `request.json` and use `curl.exe -i -H "Content-Type: application/json" --data-binary @request.json http://localhost:8080/bookings`.
 
-## Before lesson 09
+## Before lesson 13
 
 Install Docker Desktop or Docker Engine plus the Compose plugin using the official OS instructions. Check virtualization availability and start the Docker service/application. Run:
 
@@ -31,9 +31,9 @@ Client output alone is insufficient: `docker version` must reach the server. On 
 
 During the preceding week, the instructor should pull the images from `infrastructure/local/compose.yaml` and cache them for the classroom. Review applicable software licensing for the venue’s organization as part of tool selection.
 
-## Before lesson 10 / 11
+## Before lesson 14 / 15
 
-Follow [the local services guide](../infrastructure/local/README.md), verify `SELECT 1`, then apply the SQL scripts. Before lesson 11 run `go mod download` inside `examples/05-db-api` while internet access is available. It is the only supplied Go example needing an external module.
+Follow [the local services guide](../infrastructure/local/README.md), verify `SELECT 1`, then apply the SQL scripts. Before lesson 15 run `go mod download` inside `examples/05-db-api` while internet access is available. It is the only supplied Go example needing an external module.
 
 ## Before advanced Kubernetes lessons
 

@@ -1,6 +1,6 @@
 # First class: ready-to-teach checklist
 
-[Course overview](../README.md) · [Lesson 01](../courses/01-fundamentals/01-backend-and-first-program/README.md)
+[Course overview](../README.md) · [Lesson 01](../courses/01-fundamentals/01-backend-and-request-response/README.md)
 
 For a first meeting on **October 26, 2026**, use this plan; if the cohort starts later, keep the relative sequence and change the date. Do not require prior programming knowledge or a cloud account.
 
@@ -18,7 +18,7 @@ For a first meeting on **October 26, 2026**, use this plan; if the cohort starts
 
 “By the end of this course, you will understand the basic journey from a button click to a business decision and stored data. Today you will run and change your first Go program. We will build a class-booking backend together. You do not need to understand every symbol immediately. Errors are part of the work; we will learn how to read them.”
 
-## 150-minute script
+## 120-minute script
 
 | Time | What to do | Evidence to collect |
 |---|---|---|

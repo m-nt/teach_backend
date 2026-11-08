@@ -10,19 +10,19 @@ This repository is the teaching pack: sequenced lessons, explanations, live-demo
 
 | Tier | Entry point | Contact time | Practical destination |
 |---|---|---|---|
-| [1. Fundamentals](courses/01-fundamentals/README.md) | No programming experience | **14 × 2.5 h = 35 h**, over 12 weeks (about 3 months) | Broad first exposure: Go, business entities, project structure, Git, HTTP, Docker, SQL, persistence, testing, and security awareness |
+| [1. Fundamentals](courses/01-fundamentals/README.md) | No programming experience | **17 × 2 h + 1 h demonstration = 35 h**, over 12 weeks (about 3 months) | Broad first exposure: Go, business entities, project structure, Git, HTTP, Docker, SQL, persistence, testing, and security awareness |
 | [2. Intermediate](courses/02-intermediate/README.md) | Fundamentals exit gate or practical placement | **14 × 3 h = 42 h**, suggested 14 weeks | Deeper Go, transaction-safe booking, authentication/authorization, caching, sandbox email, containers, testing, CI, and observability |
 | [3. Advanced](courses/03-advanced/README.md) | Intermediate exit gate | **14 × 3 h = 42 h**, suggested 14 weeks | Operate a small multi-service infrastructure: business API, notification worker, database, Redis, email/OTP, DNS, TLS, Kubernetes, delivery, backups, and recovery |
 
 **Coverage language:** fundamentals targets the first **20%** of this program’s competency journey; intermediate adds the next **30 percentage points**, reaching **50%** cumulatively. These are planning labels for breadth and depth, not measurable percentages of all backend knowledge. Advanced completes this program’s defined outcomes, not “100% of backend.” [The competency map](resources/competency-map.md) makes the actual expectations explicit.
 
-35 contact hours can introduce the whole picture; it cannot make a first-time programmer independently production-ready. Fundamentals includes **2–4 hours of home practice per lesson** (28–56 hours in addition to class). Later tiers expect **4–6 hours per lesson**. Offer a supported setup clinic and a weekly optional practice clinic, outside contact-hour totals. Rebaseline pacing when exit checks show learners need more time.
+35 contact hours can introduce the whole picture; it cannot make a first-time programmer independently production-ready. Fundamentals includes **2–4 hours of home practice per lesson** (36–72 hours in addition to class). Later tiers expect **4–6 hours per lesson**. Offer a supported setup clinic and a weekly optional practice clinic, outside contact-hour totals. Rebaseline pacing when exit checks show learners need more time.
 
 ## Start teaching tomorrow
 
 1. Follow the [first-class instructor checklist and script](instructor/start-tomorrow.md).
 2. Send students the [setup guide](resources/setup.md); only Go and an editor are required at first. Arrange paired or instructor machines for incomplete installations.
-3. Open [Fundamentals lesson 01](courses/01-fundamentals/01-backend-and-first-program/README.md), its teaching notes, lab, and quiz.
+3. Open [Fundamentals lesson 01](courses/01-fundamentals/01-backend-and-request-response/README.md), its teaching notes, lab, and quiz.
 4. Rehearse the first program:
 
    ```sh
@@ -30,13 +30,13 @@ This repository is the teaching pack: sequenced lessons, explanations, live-demo
    go run .
    ```
 
-5. End class with the lesson’s exit check and [home practice / next-class preparation](courses/01-fundamentals/01-backend-and-first-program/HOMEWORK.md).
+5. End class with the lesson’s exit check and [home practice / next-class preparation](courses/01-fundamentals/01-backend-and-request-response/HOMEWORK.md).
 
-The next class is always prepared by the previous class’s homework: install Git before lesson 06, verify curl before 07, install Docker before 09, verify PostgreSQL before 10, and download the database driver before 11. Never spend the first lesson installing Kubernetes.
+The next class is always prepared by the previous class’s homework: install Git before lesson 06, verify network tools before 07, verify Docker before 13, verify PostgreSQL before 14, and download the database driver before 15. Never spend the first lesson installing Kubernetes.
 
 ## How each lesson works
 
-Each of the **42 lesson directories** contains:
+Each of the **46 lesson directories** contains:
 
 - `README.md`: outcomes, prerequisites, timed agenda, and student explanations.
 - `TEACHING.md`: instructor demonstration, concept explanations, expected reasoning, and support guidance.
@@ -70,7 +70,7 @@ In advanced, deploy API and worker as separate workloads. Keep stateful-service 
 
 ```text
 courses/
-  01-fundamentals/       14 lessons + capstone
+  01-fundamentals/       18 lessons + capstone
   02-intermediate/       14 lessons + capstone
   03-advanced/           14 lessons + capstone
 instructor/             first-day script, schedule, assessments, validation record

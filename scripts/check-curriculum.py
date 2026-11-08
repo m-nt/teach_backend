@@ -13,8 +13,9 @@ for tier in tiers:
     if not tier.is_dir():
         continue
     lessons = sorted(p for p in tier.iterdir() if p.is_dir())
-    if len(lessons) != 14:
-        errors.append(f'{tier.name}: expected 14 lessons, got {len(lessons)}')
+    expected_count = 18 if tier.name == '01-fundamentals' else 14
+    if len(lessons) != expected_count:
+        errors.append(f'{tier.name}: expected {expected_count} lessons, got {len(lessons)}')
     for index, lesson in enumerate(lessons, 1):
         if not lesson.name.startswith(f'{index:02d}-'):
             errors.append(f'Incorrect lesson sequence: {lesson}')
@@ -38,4 +39,4 @@ for path in root.rglob('*.md'):
 if errors:
     print('\n'.join(errors), file=sys.stderr)
     raise SystemExit(1)
-print(f'OK: 3 tiers, 42 lessons, 210 required lesson files; local Markdown links resolve.')
+print('OK: 3 tiers, 46 lessons, 230 required lesson files; local Markdown links resolve.')
